@@ -184,7 +184,7 @@ static CGSize const kDefaultSize = {320.0f, 49.0f};
 {
     JBTab* tab = [[JBTab alloc] init];
     tab.titleLabel.font = [UIFont boldSystemFontOfSize:10.0f];
-    tab.titleLabel.textAlignment = UITextAlignmentCenter;
+    tab.titleLabel.textAlignment = NSTextAlignmentCenter;
     tab.imageView.contentMode = UIViewContentModeScaleAspectFit;
     
     [tab setTitleColor:[UIColor colorWithWhite:0.6f alpha:1.0f] selected:NO];
